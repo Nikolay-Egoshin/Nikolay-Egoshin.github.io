@@ -6,8 +6,8 @@ input[type = "button"]:focus{
     outline: none;
 }
 .window{
-    width: 320px;
-    height: 200px;
+    width: 980px;
+    height: 612.5px;
     border: 1px solid black;
     margin: 20px auto;
     border-radius: 20px;
