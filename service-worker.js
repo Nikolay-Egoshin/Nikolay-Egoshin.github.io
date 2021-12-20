@@ -35,7 +35,9 @@ self.addEventListener('install', function(event) {
                        // Открываем и кэшируем нужные страницы и файлы
                            const urlsToCache = [
                                'Calc.html',
-                ........
+                               'Calc.css',
+                               'Calc.js',
+                               'https://nikolay-egoshin.github.io/'
                                'logo.svg*',
                            ]
                            cache.addAll(urlsToCache)
