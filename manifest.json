@@ -44,7 +44,7 @@
    }
  ],
 
- "start_url": "/app/",
+ "start_url": "/Calc/",
  "background_color": "#7ACCE5",
  "theme_color": "#7ACCE5",
  "orientation": "any",
