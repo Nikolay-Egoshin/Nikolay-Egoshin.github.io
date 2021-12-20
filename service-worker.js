@@ -27,16 +27,16 @@ self.addEventListener('install', function(event) {
            caches.open(CACHE_NAME)
                .then(function(cache) {
                    // Получаем данные из манифеста (они кэшируются)
-                   fetch('/static/reader/manifest.json')
+                   fetch('manifest.json')
                        .then(response => {
                            response.json()
                        })
                        .then(assets => {
                        // Открываем и кэшируем нужные страницы и файлы
                            const urlsToCache = [
-                               '/app/',
+                               'https://nikolay-egoshin.github.io/',
                 ........
-                               '/static/core/logo.svg*',
+                               'logo.svg*',
                            ]
                            cache.addAll(urlsToCache)
                            console.log('cached');
